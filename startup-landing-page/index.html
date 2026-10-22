@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f2ed" />
+    <meta name="description" content="A familiar property operations dashboard—until you see what comes next." />
+    <title>Property Overview — Shōmei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="bait.css" />
+  </head>
+  <body class="bait-page">
+    <aside class="legacy-sidebar">
+      <a class="legacy-brand" href="#" aria-label="Shōmei home"><img src="assets/shomei-wordmark.png" alt="Shōmei" /></a>
+      <div class="workspace-switch"><span class="workspace-icon">H</span><span><b>Harbour Residences</b><small>STRATA PLAN · 48102</small></span><i>⌄</i></div>
+      <p class="side-label">WORKSPACE</p>
+      <nav><a class="selected" href="#overview"><span>▦</span>Property Overview <b>⌄</b></a><a href="#compliance"><span>◇</span>Compliance Gates <b class="side-alert">3</b></a><a href="#tenders"><span>⇄</span>Tender Bids <b>4</b></a><a href="#tenants"><span>◉</span>Tenant Visibility <b>8</b></a></nav>
+      <div class="side-bottom"><div class="avatar">TM</div><span><b>Taylor Morgan</b><small>Committee member</small></span><i>•••</i></div>
+    </aside>
+    <div class="legacy-main" id="overview">
+      <header class="legacy-topbar"><div><span class="crumb">Harbour Residences</span><span class="crumb-sep">/</span><b>Property Overview</b></div><div class="top-actions"><span class="last-sync"><i></i> Last synced 2 minutes ago</span><button aria-label="Notifications">♧<sup>4</sup></button><div class="avatar small-avatar">TM</div></div></header>
+      <main class="dashboard-content">
+        <div class="dashboard-heading"><div><p>THURSDAY, 22 OCTOBER 2026 <span>·</span> ADELAIDE, SA</p><h1>Good morning, Taylor <span>✳</span></h1><small>Here’s what’s happening across your property portfolio.</small></div><button class="date-button">◷ &nbsp; Last 30 days <b>⌄</b></button></div>
+        <div class="metric-grid">
+          <article class="metric-card"><span>ACTIVE WORK ORDERS</span><b>08</b><small class="up">↑ 2 <i>vs last month</i></small><div class="spark spark-red"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="metric-card"><span>OPEN TENDER BIDS</span><b>09</b><small class="flat">Across 4 services</small><div class="spark spark-blue"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="metric-card"><span>COMPLIANCE STATUS</span><b class="metric-ready">84<em>%</em></b><small class="down">↓ 3 items need attention</small><div class="spark spark-green"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="metric-card"><span>TENANT REQUESTS</span><b>12</b><small class="flat">5 awaiting committee</small><div class="spark spark-gold"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+        </div>
+        <div class="widget-grid">
+          <section class="widget property-widget"><div class="widget-title"><div><h2>Common Property</h2><small>PROPERTY PROFILE · UPDATED TODAY</small></div><button>•••</button></div><div class="property-visual"><span class="property-tag">STRATA PLAN 48102</span><svg viewBox="0 0 540 235" role="img" aria-label="Building profile sketch"><defs><linearGradient id="tower" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e5e0d9"/></linearGradient></defs><path d="M81 192 387 192 466 157 178 157Z" fill="#d7d1c9"/><path d="M114 174V51l250-20v143Z" fill="url(#tower)" stroke="#c8c0b8"/><path d="m364 31 70 33v110h-70Z" fill="#d7cec7" stroke="#c8c0b8"/><path d="M130 63 348 45v105l-218 16Z" fill="#b8c5c3"/><path d="M153 61v103m49-108v104m49-108v100m49-104v100" stroke="#f7f5f1" stroke-width="4"/><path d="M104 51 367 26l82 39-15 8-70-33-250 25Z" fill="#b3261e"/><path d="M114 174h320" stroke="#9a9087" stroke-width="2"/><text x="193" y="207" fill="#827a72" font-family="DM Mono,monospace" font-size="10" letter-spacing="1.5">30 M FRONTAGE</text></svg><div class="dimension dimension-width">30 × 30 m</div><div class="dimension dimension-height">8 FLOORS</div><div class="map-dot">⌖ <span>Adelaide, SA</span></div></div><div class="property-facts"><div><small>COMMON PROPERTY</small><b>30 × 30m</b></div><div><small>SCHEME LOTS</small><b>14 lots</b></div><div><small>MANAGING SINCE</small><b>Mar 2019</b></div><div><small>MANAGEMENT PLAN</small><b class="green-dot">Current</b></div></div></section>
+          <section class="widget tender-widget" id="tenders"><div class="widget-title"><div><h2>Active Tenders</h2><small>4 SERVICES · 9 BIDS RECEIVED</small></div><a href="#tenders">View all <span>↗</span></a></div><div class="tender-row"><span class="service-icon red-icon">⌁</span><div><b>Building internet</b><small>Closes in 2 days · 3 bids</small></div><span class="tender-status reviewing">REVIEWING</span></div><div class="tender-row"><span class="service-icon blue-icon">⌂</span><div><b>Building insurance</b><small>Closes in 5 days · 2 bids</small></div><span class="tender-status open-status">OPEN</span></div><div class="tender-row"><span class="service-icon green-icon">≋</span><div><b>Pool maintenance</b><small>Closes in 8 days · 4 bids</small></div><span class="tender-status open-status">OPEN</span></div><div class="tender-foot">Average saving this quarter <b>$2,840</b></div></section>
+          <section class="widget repair-widget"><div class="widget-title"><div><h2>Urgent Repairs</h2><small>RESPONSE WINDOW · 24H</small></div><span class="urgent-count">3 OPEN</span></div><div class="repair-row"><span class="priority-dot"></span><div><b>Garage door jammed</b><small>Unit 04 · Reported 9:42 am</small></div><span class="repair-age">18m</span></div><div class="repair-row"><span class="priority-dot medium"></span><div><b>Water pressure low</b><small>Common area · Reported yesterday</small></div><span class="repair-age">1d</span></div><div class="repair-row"><span class="priority-dot medium"></span><div><b>Intercom not responding</b><small>Unit 08 · Reported yesterday</small></div><span class="repair-age">1d</span></div></section>
+          <section class="widget compliance-widget" id="compliance"><div class="widget-title"><div><h2>Compliance Gates</h2><small>3 ITEMS REQUIRE REVIEW</small></div><span class="review-pill">NEEDS REVIEW</span></div><div class="compliance-line"><span class="gate-icon">!</span><div><b>Fire safety inspection</b><small>Due 04 Nov · Contractor certificate</small></div><span>›</span></div><div class="compliance-line"><span class="gate-icon pale-gate">⌑</span><div><b>Insurance renewal</b><small>Due 15 Nov · 2 documents</small></div><span>›</span></div><div class="compliance-meter"><span>Readiness</span><div><i></i></div><b>84%</b></div></section>
+          <section class="widget activity-widget" id="tenants"><div class="widget-title"><div><h2>Tenant Visibility</h2><small>RECENT BUILDING ACTIVITY</small></div><a href="#tenants">Activity log <span>↗</span></a></div><div class="activity-row"><span class="activity-symbol">↗</span><div><b>New maintenance request</b><small>Unit 04 · Garage access · 9:42 am</small></div><span>18m</span></div><div class="activity-row"><span class="activity-symbol blue-activity">✓</span><div><b>Quote received</b><small>Pool maintenance · Coastal Services</small></div><span>2h</span></div><div class="activity-row"><span class="activity-symbol gray-activity">◷</span><div><b>Committee decision requested</b><small>Insurance renewal · 2 responses pending</small></div><span>Yesterday</span></div></section>
+        </div>
+        <div class="legacy-footnote">PROPERTY OPERATIONS PORTAL <span>·</span> ALL SYSTEMS NORMAL <span>·</span> VERSION 4.8.2</div>
+      </main>
+    </div>
+    <div class="click-catcher" role="button" tabindex="0" aria-label="Continue to Shōmei" title="Click anywhere to continue"><span>CLICK ANYWHERE TO CONTINUE <b>↗</b></span></div>
+    <section class="transition-screen" aria-live="assertive"><div class="transition-copy"><h2>Just Kidding!<br />Zero Dashboards.</h2><p>Building committees don't want another portal to log into.</p></div></section>
+    <script src="bait.js"></script>
+  </body>
+</html>
+
